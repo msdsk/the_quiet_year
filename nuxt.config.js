@@ -35,5 +35,11 @@ module.exports = {
                 })
             }
         }
+    },
+    generate: {
+        dir: 'docs'
+    },
+    router: {
+        base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/the_quiet_year/' : '/'
     }
 }

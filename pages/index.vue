@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import cards from "~/components/cards.json";
+import cards from "~/assets/cards.json";
 export default {
   data() {
     return {
